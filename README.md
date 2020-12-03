@@ -3,6 +3,7 @@
 #step
 
 - jangan lupa menginstall terlebih dahulu telegraf
+  
   $npm install telegraf
 
   atau
