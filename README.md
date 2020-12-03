@@ -2,8 +2,15 @@
 
 #step
 
-- membuat bot dan ambil token
+- jangan lupa menginstall terlebih dahulu telegraf
+  $npm install telegraf
 
-- membuat file projeck deno file .env
+  atau
+
+  $yarn add telegraf
+
+- membuat file projeck index.js
+
+- membuat bot dan ambil token
 
 - set
