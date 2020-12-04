@@ -3,7 +3,11 @@
 #step
 
 - jangan lupa menginstall terlebih dahulu telegraf
+<<<<<<< Updated upstream
   
+=======
+
+>>>>>>> Stashed changes
   $npm install telegraf
 
   atau
