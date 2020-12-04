@@ -30,6 +30,7 @@ bot.hears('😘😘😘', (ctx) => ctx.reply("🥰🥰🥰🥰"));
 bot.hears('☺️', (ctx) => ctx.reply("😁"));
 bot.hears('😋', (ctx) => ctx.reply("😡"));
 bot.hears('😔', (ctx) => ctx.reply("😭"));
+bot.hears('sedih', (ctx) => ctx.reply("😭"));
 
 
 //  perintah
@@ -42,7 +43,7 @@ bot.command('babi', (ctx) => ctx.reply('Anda menggunakan bahasa kotor'));
 // sapa kabar
 bot.command('apakabar', (ctx) => ctx.reply('Baik, bagaimana denganmu'));
 bot.command('akubaik', (ctx) => ctx.reply('Benarkah, bagaimana dengan hatimu'));
-bot.command('iya', (ctx) => ctx.reply('😔😔'));
+bot.command('sedih', (ctx) => ctx.reply('😔😔'));
 
 // kirim media 
 //  bot.command()
