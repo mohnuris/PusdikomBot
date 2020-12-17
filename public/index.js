@@ -8,7 +8,7 @@ bot.start((ctx) => ctx.reply("Selamat Datang di pusdikom dev"));
 
 bot.help((ctx) => ctx.reply("ini adalah menu bantuan"));
 
-bot.hello((ctx) => ctx.reply("Selamat Datang"));
+// bot.hello((ctx) => ctx.reply("Selamat Datang"));
 
 // tegur sapa
 
