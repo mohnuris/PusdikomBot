@@ -26,6 +26,7 @@ bot.hears('hello', (ctx) => ctx.reply("Hello Salam Kenal"));
 bot.hears('Bot', (ctx) => ctx.reply("Iya dengan saya sendiri"));
 bot.hears('bagaimana', (ctx) => ctx.reply("Iya dengan saya sendiri"));
 bot.hears('bot', (ctx) => ctx.reply("Iya dengan saya sendiri bot"));
+bot.hears('Jangkrik', (ctx) => ctx.reply("Perkataan Anda tidak pantas"));
 bot.hears('kontol', (ctx) => ctx.reply("Otak Anda Mesum"));
 bot.hears('ngaceng', (ctx) => ctx.reply("Otak Anda Mesum"));
 bot.hears('memek', (ctx) => ctx.reply("Otak Anda Mesum"));
