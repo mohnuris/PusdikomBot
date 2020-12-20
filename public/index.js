@@ -6,7 +6,7 @@ const bot = new Telegraf("1442414242:AAELYF8Wp41gKX59NM17Vg525mRrN5AR40A");
 
 bot.start(ctx => {
   const username = ctx.update.message.from.username;
-  ctx.reply(`Halo kaka @${username}, selamat datang di grup pusdikom`);
+  ctx.reply(`Halo @${username}, selamat datang di grup pusdikom`);
 });
 
 bot.start((ctx) => ctx.reply("Selamat Datang di pusdikom dev"));
