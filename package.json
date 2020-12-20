@@ -4,7 +4,7 @@
   "description": "- membuat bot dan ambil token",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node public/index.js"
   },
   "repository": {
     "type": "git",
