@@ -13,9 +13,9 @@ bot.start(ctx => {
   ctx.reply(`Halo @${username}, selamat datang di grup pusdikom`);
 });
 
-bot.hello(ctx => {
+bot.start(ctx => {
   const username = ctx.update.message.from.username;
-  ctx.reply(`Halo Kak ☺️ @${username}, `);
+  ctx.reply(`Halo kak ☺️ @${username}, `);
 });
 
 
