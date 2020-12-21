@@ -13,7 +13,12 @@ bot.start(ctx => {
   ctx.reply(`Halo @${username}, selamat datang di grup pusdikom`);
 });
 
-// bot.start((ctx) => ctx.reply("Selamat Datang di pusdikom dev"));
+bot.hello(ctx => {
+  const username = ctx.update.message.from.username;
+  ctx.reply(`Halo Kak ☺️ @${username}, `);
+});
+
+
 
 bot.help((ctx) => ctx.reply("ini adalah menu bantuan"));
 
