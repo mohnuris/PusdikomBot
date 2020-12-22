@@ -40,6 +40,8 @@ bot.hears('babi', (ctx) => ctx.reply("Perkataan Anda tidak pantas"));
 
 // tanya-jawab
 bot.hears('apa kabar', (ctx) => ctx.reply("saya baik, kamu..?"));
+bot.hears('baik', (ctx) => ctx.reply("alhamdulilah, semooga harimu menyenangkan"));
+bot.hears('tidak baik', (ctx) => ctx.reply("kenapa?"));
 bot.hears('iyakah', (ctx) => ctx.reply("beneran saya baik, kamu bagaimana..?"));
 bot.hears('saya baik', (ctx) => ctx.reply("alhamdulilah ☺️"));
 bot.hears('😘', (ctx) => ctx.reply("🥰"));
