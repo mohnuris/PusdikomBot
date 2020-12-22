@@ -46,6 +46,7 @@ bot.hears('capek', (ctx) => ctx.reply("mungkin kamu lelah"));
 bot.hears('males', (ctx) => ctx.reply("mungkin kamu lelah"));
 bot.hears('bosan', (ctx) => ctx.reply("bosan dengan keadaan.?"));
 bot.hears('kamu cuek', (ctx) => ctx.reply("perasaan anda saja yang tidak baik"));
+bot.hears('cuek', (ctx) => ctx.reply("perasaan anda saja yang tidak baik"));
 bot.hears('iya', (ctx) => ctx.reply("jalani dengan penuh ikhlas"));
 bot.hears('iyakah', (ctx) => ctx.reply("beneran saya baik, kamu bagaimana..?"));
 bot.hears('saya baik', (ctx) => ctx.reply("alhamdulilah ☺️"));
