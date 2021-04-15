@@ -40,8 +40,9 @@ bot.hears('babi', (ctx) => ctx.reply("Perkataan Anda tidak pantas"));
 
 // tanya-jawab
 bot.hears('apa kabar', (ctx) => ctx.reply("saya baik, kamu..?"));
-bot.hears('assalamualaikum', (ctx) => ctx.reply("walaikumsalam"));
 bot.hears('askum', (ctx) => ctx.reply("walaikumsalam"));
+bot.hears('assalamualaikum', (ctx) => ctx.reply("walaikumsalam"));
+// bot.hears('assalamualaikum', (ctx) => ctx.reply("walaikumsalam"));
 bot.hears('baik', (ctx) => ctx.reply("alhamdulilah, semooga harimu menyenangkan"));
 bot.hears('tidak baik', (ctx) => ctx.reply("kenapa?"));
 bot.hears('capek', (ctx) => ctx.reply("mungkin kamu lelah"));
@@ -74,13 +75,13 @@ bot.command('akubaik', (ctx) => ctx.reply('Benarkah, bagaimana dengan hatimu'));
 bot.command('sedih', (ctx) => ctx.reply('😔😔'));
 
 // kirim media 
-//  bot.command()
-// bot.command('dev', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-1.fna.fbcdn.net/v/t1.0-0/p526x296/125862634_2813872322220724_5732726074926288198_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_eui2=AeGtbK3REg1StY8HeG8oAxe8NTXA4iqPjps1NcDiKo-Omxo5pahFovxfkv4tG7fEz6E00tCbXTJ4dIjjMoihdWDO&_nc_ohc=5SKSgiZl71gAX8Wb6A4&_nc_ht=scontent.fsub6-1.fna&tp=6&oh=dfc13bbf9f86cc3d7d72917a90ee285f&oe=5FED7106"));
-// bot.command('gambar', (ctx) => ctx.replyWithPhoto("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKqHE4OadUua0Dv0bFn7vfnjm7qaIDjEaCdA&usqp=CAU"));
-// bot.command('gambar1', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-1.fna.fbcdn.net/v/t1.0-9/117166249_821436901595681_5464164722755621713_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGZZgscTMTUc2EULFW0DJnMMM3v9wBz64Awze_3AHPrgGjn0IkTxSkU_YJePhOVl9oxq0tzOcS9XauEyXIggm1h&_nc_ohc=ExmPyNma3acAX8SbgoJ&_nc_ht=scontent.fsub6-1.fna&oh=b8d0648fb10db61a969f366960dc4211&oe=5FEE5904"));
-// bot.command('gambar2', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-1.fna.fbcdn.net/v/t1.0-9/35757479_370772969995412_8221756290146238464_n.jpg?_nc_cat=106&ccb=2&_nc_sid=174925&_nc_eui2=AeEhawuQSZBS5Gmjh1dCgA1Fwt23MquyfpLC3bcyq7J-ks7-PWOuN5cPQy7IfJ6Bt9Cne4gOQbV1v5IFKGI-wFWS&_nc_ohc=xW7y6wntUNEAX-AVmS6&_nc_ht=scontent.fsub6-1.fna&oh=ccd4aea3114b958f766302672e024f94&oe=5FF0B7E4"));
+ bot.command()
+bot.command('dev', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-1.fna.fbcdn.net/v/t1.0-0/p526x296/125862634_2813872322220724_5732726074926288198_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_eui2=AeGtbK3REg1StY8HeG8oAxe8NTXA4iqPjps1NcDiKo-Omxo5pahFovxfkv4tG7fEz6E00tCbXTJ4dIjjMoihdWDO&_nc_ohc=5SKSgiZl71gAX8Wb6A4&_nc_ht=scontent.fsub6-1.fna&tp=6&oh=dfc13bbf9f86cc3d7d72917a90ee285f&oe=5FED7106"));
+bot.command('gambar', (ctx) => ctx.replyWithPhoto("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKqHE4OadUua0Dv0bFn7vfnjm7qaIDjEaCdA&usqp=CAU"));
+bot.command('gambar1', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-1.fna.fbcdn.net/v/t1.0-9/117166249_821436901595681_5464164722755621713_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGZZgscTMTUc2EULFW0DJnMMM3v9wBz64Awze_3AHPrgGjn0IkTxSkU_YJePhOVl9oxq0tzOcS9XauEyXIggm1h&_nc_ohc=ExmPyNma3acAX8SbgoJ&_nc_ht=scontent.fsub6-1.fna&oh=b8d0648fb10db61a969f366960dc4211&oe=5FEE5904"));
+bot.command('gambar2', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-1.fna.fbcdn.net/v/t1.0-9/35757479_370772969995412_8221756290146238464_n.jpg?_nc_cat=106&ccb=2&_nc_sid=174925&_nc_eui2=AeEhawuQSZBS5Gmjh1dCgA1Fwt23MquyfpLC3bcyq7J-ks7-PWOuN5cPQy7IfJ6Bt9Cne4gOQbV1v5IFKGI-wFWS&_nc_ohc=xW7y6wntUNEAX-AVmS6&_nc_ht=scontent.fsub6-1.fna&oh=ccd4aea3114b958f766302672e024f94&oe=5FF0B7E4"));
 
-// bot.command('gambar3', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-4.fna.fbcdn.net/v/t1.0-9/119418603_849477418791629_1308048692788991104_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_eui2=AeGk1O4I7Vmjk4ZBKKcrMVKz-jsZScNskAT6OxlJw2yQBDtfjFPFPBe7FP1iJxG_LVxKi2wWxTd9G53rOlHdBl-7&_nc_ohc=fWxONaaqzsgAX8iBREj&_nc_ht=scontent.fsub6-4.fna&oh=813329c8a7267a3a54718c54408c1ba5&oe=5FEDAEEA"));
+bot.command('gambar3', (ctx) => ctx.replyWithPhoto("https://scontent.fsub6-4.fna.fbcdn.net/v/t1.0-9/119418603_849477418791629_1308048692788991104_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_eui2=AeGk1O4I7Vmjk4ZBKKcrMVKz-jsZScNskAT6OxlJw2yQBDtfjFPFPBe7FP1iJxG_LVxKi2wWxTd9G53rOlHdBl-7&_nc_ohc=fWxONaaqzsgAX8iBREj&_nc_ht=scontent.fsub6-4.fna&oh=813329c8a7267a3a54718c54408c1ba5&oe=5FEDAEEA"));
 
 
 
